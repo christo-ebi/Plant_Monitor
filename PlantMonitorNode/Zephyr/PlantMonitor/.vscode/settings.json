@@ -1,0 +1,23 @@
+{
+    // IntelliSense
+    "C_Cpp.default.compilerPath": "${userHome}/zephyr-sdk-0.16.8/arm-zephyr-eabi/bin/arm-zephyr-eabi-gcc",
+    "C_Cpp.default.compileCommands": "${workspaceFolder}/build/compile_commands.json",
+ 
+    // Hush CMake
+    "cmake.configureOnOpen": false,
+    "files.associations": {
+        "thread_analyzer.h": "c",
+        "cstdio": "c",
+        "cstdint": "cpp",
+        "sensor.h": "c",
+        "bmp280.h": "c",
+        "printk.h": "c",
+        "dht11.h": "c",
+        "device.h": "c",
+        "array": "cpp",
+        "string_view": "cpp",
+        "initializer_list": "cpp",
+        "typeinfo": "c",
+        "datatypes.h": "c"
+    },
+}

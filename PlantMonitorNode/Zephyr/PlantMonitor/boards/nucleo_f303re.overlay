@@ -1,0 +1,21 @@
+/   {
+		aliases {
+			dth11tmp = &tmp11;
+			sensortmp = &sensor1;
+		};
+
+		tmp11:dht11 {
+			compatible = "aosong,dht";
+			dio-gpios = <&gpioc 0 GPIO_ACTIVE_LOW>;
+		};
+	};
+
+
+	&i2c1 {
+	status = "okay";
+	sensor1: bme280@76 {
+		compatible = "bosch,bme280";
+		reg = <0x76>;
+		status = "okay";
+	};
+};
